@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth,GoogleAuthProvider } from "firebase/auth";
 import { getFirestore,doc,setDoc } from "firebase/firestore";
-import { exp } from "firebase/firestore/pipelines";
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyBtSwiwoJe3BNWaAqRHvJ6e5y9ac-eVjss",
