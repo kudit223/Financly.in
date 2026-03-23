@@ -6,8 +6,8 @@ import { getFirestore,doc,setDoc } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBtSwiwoJe3BNWaAqRHvJ6e5y9ac-eVjss",
-  authDomain: "financly-3b6ff.firebaseapp.com",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain:import.meta.env.VITE_AUTH_DOMAIN,
   projectId: "financly-3b6ff",
   storageBucket: "financly-3b6ff.firebasestorage.app",
   messagingSenderId: "979289214875",
