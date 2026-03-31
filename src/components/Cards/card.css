@@ -1,0 +1,11 @@
+.my-card{
+    box-shadow: var(--shadow);
+    width: 90vw;
+    max-width: 450px;
+    font-family: "Montserrat", sans-serif !important;
+    border-radius: 10px;
+}
+.ant-card-head{
+    font-weight: 500;
+}
+
